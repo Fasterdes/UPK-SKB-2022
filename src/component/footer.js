@@ -21,7 +21,7 @@ export default function Footer() {
 
                     <FooterSubItems> 
                         <Title>Alamat</Title>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.258431959178!2d107.00105021476926!3d-6.229620995490567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698db7f4144017%3A0x181147f5abf3a5ae!2sSPNF%20SKB%20Kota%20Bekasi!5e0!3m2!1sid!2sid!4v1647210706734!5m2!1sid!2sid"  loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.258431959178!2d107.00105021476926!3d-6.229620995490567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698db7f4144017%3A0x181147f5abf3a5ae!2sSPNF%20SKB%20Kota%20Bekasi!5e0!3m2!1sid!2sid!4v1647210706734!5m2!1sid!2sid"  loading="lazy" title='SKB map'></iframe>
                     </FooterSubItems>
 
                     <FooterSubItems> 
