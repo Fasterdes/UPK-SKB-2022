@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
-import tw, { styled , css } from "twin.macro";
+import tw, {css } from "twin.macro";
 import 'react-modern-calendar-datepicker/lib/DatePicker.css'
 import { Calendar } from 'react-modern-calendar-datepicker'
 
-const Title = tw.h1`text-2xl font-bold text-center  text-blue`
 const SubTitle = tw.p`text-base text-blue mb-16 leading-normal`
 
 const Jadwal = tw.section`grid gap-16 mt-16 px-4`

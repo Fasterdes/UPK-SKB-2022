@@ -1,6 +1,6 @@
 import * as React from 'react' 
 import { Global , css } from '@emotion/react'
-import tw , { theme , GlobalStyles as BaseStyles } from 'twin.macro'
+import { GlobalStyles as BaseStyles } from 'twin.macro'
 import "@fontsource/lato"
 import "@fontsource/lato/700.css"
 
