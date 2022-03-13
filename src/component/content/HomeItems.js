@@ -2,9 +2,20 @@ import { Link } from "react-router-dom";
 import tw from "twin.macro";
 
 import BgHero from '../../img/hero.png'
+import SpnfIcon from '../../img/spnf.svg'
+
+import BgJadwal from '../../img/jadwal.jpeg'
+import BgPelaksanaan from '../../img/pelaksanaan.jpeg'
+
+import Kepsek from '../../img/kepsek.jpeg'
+import WalasA from '../../img/walasPaketA.png'
+import WalasB from '../../img/walasPaketB.jpeg'
+import WalasC from '../../img/walasPaketC.jpeg'
 
 const Title = tw.h1`text-2xl font-bold text-center text-blue`
-const SubTitle = tw.p`text-base text-blue`
+const SubTitle = tw.p`text-base text-blue text-center mt-4`
+
+const Nav = tw.nav`grid place-content-center bg-blue h-24 w-full px-4 border-b-2 `
 
 const Hero = tw.section`flex items-center h-82 bg-contain`
 const HeroItems = tw.div`flex flex-col justify-center gap-2 backdrop-blur-sm bg-blue/50  w-full h-full px-4`
@@ -14,12 +25,15 @@ const HeroParagraph = tw.p`text-base font-normal leading-normal text-white`
 const Card = tw.section`grid gap-9 mt-6 px-4`
 const CardGrid = tw.div`grid grid-cols-2 gap-9`
 const CardItems = tw.div`flex flex-col items-center gap-5`
-const CardSubItems = tw.div`grid gap-2`
-const CardImages = tw.img`rounded-lg`
+const CardSubItems = tw.div`grid`
+const CardImages = tw.img`rounded-lg h-52`
 
 export default function HomeItems() {
     return (
         <>
+            <Nav>
+                <img src={SpnfIcon} alt="" />
+            </Nav>
             <Hero style={{ backgroundImage: `url(${BgHero})` }}>
                 <HeroItems>
                     <HeroTitle>Ujian Pendidikan Kesetaraan</HeroTitle>
@@ -31,14 +45,14 @@ export default function HomeItems() {
                 <Title>Informasi</Title>
                 <CardGrid>
                     <CardItems>
-                        <CardImages src={BgHero} alt="" />
                         <Link to='/jadwal'>
+                            <CardImages src={BgJadwal} alt="" />
                             <SubTitle>Jadwal Ujian</SubTitle>
                         </Link>
                     </CardItems>
                     <CardItems>
-                        <CardImages src={BgHero} alt="" />
                         <Link to='/pelaksanaan'>
+                            <CardImages src={BgPelaksanaan} alt="" />
                             <SubTitle>Alur Pelaksanaan</SubTitle>
                         </Link>
                     </CardItems>
@@ -49,33 +63,39 @@ export default function HomeItems() {
                 <Title>Narahubung</Title>
                 <CardGrid>
                     <CardItems>
-                        <CardImages src={BgHero} alt="" />
+                        <CardImages src={Kepsek} alt="" />
                         <CardSubItems>
-                            <Title>Jhon Doe</Title>
-                            <SubTitle>Jadwal Ujian</SubTitle>
+                            <Title>Saepul Turjaman , S.pd , M.pd</Title>
+                            <SubTitle>PLT Kepala SPNF SKB Kota Bekasi</SubTitle>
                         </CardSubItems>
                     </CardItems>
-                    <CardItems>
-                        <CardImages src={BgHero} alt="" />
-                        <CardSubItems>
-                            <Title>Jhon Doe</Title>
-                            <SubTitle>Jadwal Ujian</SubTitle>
-                        </CardSubItems>
-                    </CardItems>
-                    <CardItems>
-                        <CardImages src={BgHero} alt="" />
-                        <CardSubItems>
-                            <Title>Jhon Doe</Title>
-                            <SubTitle>Jadwal Ujian</SubTitle>
-                        </CardSubItems>
-                    </CardItems>
-                    <CardItems>
-                        <CardImages src={BgHero} alt="" />
-                        <CardSubItems>
-                            <Title>Jhon Doe</Title>
-                            <SubTitle>Jadwal Ujian</SubTitle>
-                        </CardSubItems>
-                    </CardItems>
+                    <a href='https://api.whatsapp.com/send?phone=6281585055700'>
+                        <CardItems>
+                            <CardImages src={WalasA} alt="" />
+                            <CardSubItems>
+                                <Title>SYAHRUDIN, S.Pd.I </Title>
+                                <SubTitle>Wali Kelas Paket A</SubTitle>
+                            </CardSubItems>
+                        </CardItems>
+                    </a>
+                    <a href='https://api.whatsapp.com/send?phone=6281316498746'>
+                        <CardItems>
+                            <CardImages src={WalasB} alt="" />
+                            <CardSubItems>
+                                <Title>AGUNG DWI WASKITO, S.Pd</Title>
+                                <SubTitle>Wali Kelas Paket B</SubTitle>
+                            </CardSubItems>
+                        </CardItems>
+                    </a>
+                    <a href='https://api.whatsapp.com/send?phone=+6281333209385'>
+                        <CardItems>
+                            <CardImages src={WalasC} alt="" />
+                            <CardSubItems>
+                                <Title>PIPIT SLAMET EKAWATI, S.Pd., M.M</Title>
+                                <SubTitle>Wali Kelas Paket C</SubTitle>
+                            </CardSubItems>
+                        </CardItems>
+                    </a>
                 </CardGrid>
             </Card>
         </>

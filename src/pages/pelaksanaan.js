@@ -7,7 +7,7 @@ export default function Pelaksanaan() {
     return ( 
         <> 
             <Container>
-                <Navbar/>
+                <Navbar title="Alur Pelaksanaan"/>
                 <PelaksanaanItems/> 
                 <Footer/>
             </Container>

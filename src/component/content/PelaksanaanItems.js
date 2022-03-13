@@ -17,7 +17,6 @@ export default function PelaksanaanItems() {
                 <Pelaksanaan key={index}>
                     <PelaksanaanGroups>
                         <PelaksanaanImages src={data.image} />
-
                         <PelaksanaanSubGroups>
                             <Title>{data.title}</Title>
                             <SubTitle>{data.text}</SubTitle>
