@@ -65,7 +65,7 @@ export default function HomeItems() {
                     <CardItems>
                         <CardImages src={Kepsek} alt="" />
                         <CardSubItems>
-                            <Title>Saepul Turjaman , S.pd , M.pd</Title>
+                            <Title>EEP Saepul Turjaman , S.pd , M.pd</Title>
                             <SubTitle>PLT Kepala SPNF SKB Kota Bekasi</SubTitle>
                         </CardSubItems>
                     </CardItems>
@@ -75,6 +75,7 @@ export default function HomeItems() {
                             <CardSubItems>
                                 <Title>SYAHRUDIN, S.Pd.I </Title>
                                 <SubTitle>Wali Kelas Paket A</SubTitle>
+                                <SubTitle>+62 815-8505-5700</SubTitle>
                             </CardSubItems>
                         </CardItems>
                     </a>
@@ -84,6 +85,7 @@ export default function HomeItems() {
                             <CardSubItems>
                                 <Title>AGUNG DWI WASKITO, S.Pd</Title>
                                 <SubTitle>Wali Kelas Paket B</SubTitle>
+                                <SubTitle>+62 813-1649-8746</SubTitle>
                             </CardSubItems>
                         </CardItems>
                     </a>
@@ -93,6 +95,7 @@ export default function HomeItems() {
                             <CardSubItems>
                                 <Title>PIPIT SLAMET EKAWATI, S.Pd., M.M</Title>
                                 <SubTitle>Wali Kelas Paket C</SubTitle>
+                                <SubTitle>+62 813-3320-9385</SubTitle>
                             </CardSubItems>
                         </CardItems>
                     </a>
