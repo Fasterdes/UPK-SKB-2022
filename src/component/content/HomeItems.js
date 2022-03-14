@@ -4,11 +4,11 @@ import tw from "twin.macro";
 import BgHero from '../../img/hero.png'
 import SpnfIcon from '../../img/spnf.svg'
 
-import BgJadwal from '../../img/jadwal.jpeg'
+import BgJadwal from '../../img/jadwal.png'
 import BgPelaksanaan from '../../img/pelaksanaan.jpeg'
 
 import Kepsek from '../../img/kepsek.jpeg'
-import WalasA from '../../img/walasPaketA.png'
+import WalasA from '../../img/walasPaketA.jpeg'
 import WalasB from '../../img/walasPaketB.jpeg'
 import WalasC from '../../img/walasPaketC.jpeg'
 
@@ -37,7 +37,7 @@ export default function HomeItems() {
             <Hero style={{ backgroundImage: `url(${BgHero})` }}>
                 <HeroItems>
                     <HeroTitle>Ujian Pendidikan Kesetaraan</HeroTitle>
-                    <HeroParagraph>Berikut berisi informasi tentang UPK (Ujian Pendidikan Kesetaraan) SPNF SKB Kota Bekasi tahun 2022.</HeroParagraph>
+                    <HeroParagraph>Berikut berisi informasi tentang UPK (Ujian Pendidikan Kesetaraan) SPNF SKB Kota Bekasi tahun 2021-2022.</HeroParagraph>
                 </HeroItems>
             </Hero>
 
